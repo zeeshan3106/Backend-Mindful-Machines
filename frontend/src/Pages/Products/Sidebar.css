@@ -1,0 +1,108 @@
+.Sidebar {
+  max-width: 280px;
+  padding: 20px;
+ 
+
+  border-right: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow-y: auto;
+
+}
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+ 
+
+.Sidebar h4 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.Sidebar h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.Sidebar h6 {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.scrol {
+  padding-left: 10px;
+}
+
+.text-f{
+    
+}
+
+.Sidebar .MuiBox-root{
+
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.MuiFormControlLabel-root {
+  margin-top: 1px;  
+  margin-bottom: 1px;
+}
+.Sidebar h5 {
+    font-weight: bold;
+    color: black;
+    font-size:  20px;
+}
+.Sidebar .scrol{
+   
+
+   /* overflow-y: scroll;*/
+   /* overflow-x:hidden;*/
+}
+.price-f{
+    display: flex;
+    gap:70px
+}
+.Sidebar{
+ 
+ overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+}
+
+.Sidebar .scrol{
+
+}
+.Sidebar{
+  background-color: white}
+
+.filters{
+
+  align-items: center;
+  justify-content: center;}
+
+
+  @media screen and (max-width:500px) {
+
+    .Sidebar{
+      position: fixed;
+      top: 0px;
+      left: 0px;
+    display: none;  
+    }
+
+
+
+    
+  }

@@ -1,0 +1,25 @@
+.Order-Container{
+    margin-top: 20px;
+
+    
+}
+.Font{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    ;
+}
+.Primary-Orders{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.Orders{
+   
+}
+.Orders-Page{
+   
+}
+.Table{
+    margin-top: -40px;
+}

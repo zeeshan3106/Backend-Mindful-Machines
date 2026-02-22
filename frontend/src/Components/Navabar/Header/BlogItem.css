@@ -1,0 +1,9 @@
+.Blog .info1{
+
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.Blog .info1 a{
+  font-size: clamp(14px, 1.2vw, 18px);
+
+}

@@ -1,0 +1,119 @@
+.Slider .Blog .Pitem{
+
+   
+  
+}
+.Pop .pop1{
+    width: 100%;
+    padding: 20px;
+    padding-left:38px;
+  
+
+
+
+}
+
+.Slider .Blog .imgwrap{
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+
+}
+.Slider .Blog1{
+
+    
+}
+
+.Slider .Blog .Pitem{
+    
+border-radius: 0px;
+
+
+padding: 12px;
+transform: none;
+      box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+.Pitem:hover {
+
+      
+   
+}
+
+
+
+.Slider .Blog .Pitem .info1{
+
+    color: #0D47A1;
+}
+.Slider .Blog .Pitem .info{
+
+    color: rgb(73, 72, 72)
+}
+.Blog .Pitem .Img {
+    max-height: auto!important;
+  
+  height: 200px;    
+  object-fit: cover;
+}
+
+.learn a{
+    color:#0B3D91;
+    font-weight: bold;
+
+}
+.info1 a{
+    color:#0D47A1 ;
+}
+.learn a:hover{
+
+   color: #1E5BB8;}
+
+.Blog1 .Pop {
+
+
+  max-height: 100px;
+   
+}
+
+.date{
+    display: flex;
+    padding-left: 5px;
+    gap:5px;
+    margin-top: 20px;
+    max-width: 10px;
+    max-height: 5px;
+    
+    
+    
+}
+
+.date .SVG svg {
+  display: block; 
+    
+  margin-top: 3px;     
+}
+@media screen and (max-width:500px){
+    .Blog1{
+        background-color: black;
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .Pop{
+    
+    }
+ 
+    .desc{
+        font-size: 10px;
+    }
+    .Blog-Title{
+           font-size: 10px;
+           
+    }
+    .our{
+        background-color: black;
+    }
+    
+    
+}

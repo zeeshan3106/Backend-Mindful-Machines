@@ -1,0 +1,126 @@
+import express from 'express';
+import cloudinary from 'cloudinary'
+import cors from 'cors'
+import cookieParser from 'cookie-parser'
+import dotenv from 'dotenv'
+import bcrypt from 'bcryptjs'
+import helmet, { crossOriginResourcePolicy } from 'helmet'
+import jsonwebtoken from 'jsonwebtoken'
+import mongoose from 'mongoose';
+
+import multer from 'multer'
+import nodemon from 'nodemon'
+import Connencted from './Server/config/Database Connenction.js';
+import userRouter from './Server/routes/user.route.js';
+import Productroute from './Server/routes/Product.js';
+import ProfileRouter from './Server/routes/Profile.js';
+import FeedRouter from './Server/routes/Feedback.js';
+import ContactRouter from './Server/routes/Contact.js';
+import SignupRouter from './Server/routes/Signup.js';
+import LoginRouter from './Server/routes/login.js';
+
+import CartRouter from './Server/routes/Cart.js';
+import CategoryRouter from './Server/routes/Category.js';
+import OrderRouter from './Server/routes/Order.js';
+import DashboardRouter from './Server/routes/Dashboard.js';
+import WishRouter from './Server/routes/Wishlist.js';
+
+dotenv.config()
+const app = express()
+app.use(cors())
+app.use(helmet())
+
+
+app.use(express.json())
+
+
+
+app.get('/', (req, res)=>{
+
+
+    res.json({
+
+        message:"Server Connencted with "+ process.env.PORT
+    })
+
+
+
+})
+
+
+
+
+app.use('/api/users',userRouter)
+
+app.use('/api/users',Productroute)
+console.log('✅ Product routes registered')
+
+
+app.use('/api/frontend',ProfileRouter)
+console.log('✅ Profile routes registered')
+
+app.use('/api/frontend', FeedRouter)
+console.log("✅ Feeback routes registered")
+
+app.use('/api/frontend', ContactRouter)
+console.log("✅ Contact routes registered")
+
+app.use('/api/users',Productroute)
+console.log('✅ 2nd Product routes registered')
+
+app.use('/api/frontend',ProfileRouter)
+console.log('✅ 2nd Profile routes registered')
+
+app.use('/api/frontend', ContactRouter)
+console.log("✅ Contact 2nd routes registered")
+
+app.use('/api/users' , SignupRouter)
+console.log("✅ Contact 2nd routes registered")
+
+app.use('/api/users' , LoginRouter)
+console.log("✅ Login Successfully!")
+
+app.use('/api/products',CategoryRouter)
+console.log("✅ Category added Successfully!")
+
+app.use('/api/products',CategoryRouter)
+
+
+app.use('/api/orders',OrderRouter)
+
+
+
+app.use('/api/users' , Productroute)
+console.log("✅ Update Successfully!")
+
+app.use('/api/users' , Productroute)
+console.log("✅ Update Successfully!")
+
+app.use('/api/users' , Productroute)
+console.log("✅ Update Successfully!")
+
+
+
+app.use('/api/cart', CartRouter)
+console.log("✅ Login Successfully!")
+
+
+
+app.use('/api/cart', CartRouter)
+console.log("✅ Login Successfully!")
+
+app.use('/api/admin',DashboardRouter)
+console.log("✅ Dashboard Displayed Successfully!")
+
+app.use('/api/wish',WishRouter)
+
+
+
+Connencted().then(()=>{
+
+    app.listen(process.env.PORT, ()=>{
+
+        console.log("Database is live on server",process.env.PORT)
+    })
+
+})

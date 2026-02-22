@@ -1,0 +1,207 @@
+.container-login{
+
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  padding-top: 20px;
+    text-align: center;
+   
+}
+.MuiCircularProgress-root{
+   max-width: 20px;
+}
+.Login{
+    background-color: white;
+  
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    text-align: center;
+   
+    border: 1px solid #f8f8f8;
+    font-size: 25px;
+    font-weight: bold;;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.1);
+    padding: 30px;
+    
+}
+.form{
+    margin-top: 50px;
+}
+.text{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border: none;
+    background-color: white;
+  
+    margin-top: 50px;
+    justify-content: start;
+    align-items: start;
+    border: 1px solid grey;
+}
+.text:active{
+    border: none;
+}
+.text:hover{
+    border: none;
+}
+.MuiInputBase-input{
+
+}
+.form-group{
+  
+   
+
+}
+.container-login{
+    align-items: center;
+    justify-content: center;
+}
+
+.MuiFormControl-root{
+    max-width: 100% !important;
+}
+.MuiTextField-root{
+    max-width: 100% !important;
+}
+.pass-icon{
+
+    position:absolute;
+    top: 20px;
+    color: black;
+
+   
+ 
+}
+
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    text-align: center;
+   
+}
+
+.Login {
+    background-color: white;
+    max-width: 500px;
+    padding: 50px;
+  
+    border: 1px solid #f8f8f8;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.1);
+ 
+    text-align: center;
+}
+.show-btn svg{
+font-size: large;
+}
+
+.Link{
+    color: black;
+    max-width: 300px !important;
+    justify-content: start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.Link:hover{
+    color: rgb(57, 57, 255);
+
+}
+.Food{
+    display: flex;
+    justify-content: start;
+    padding-left: 13px;
+
+}
+.Link2{
+    justify-content: center;
+    max-width: 100%;
+    color: black;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    justify-content:start;
+}
+.Link2 a{
+    color: black;
+    padding-top: 20px;
+}
+.Log-sign{
+
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    gap: 2px;
+  
+
+}
+.Signup-login{
+
+    max-width: 20% !important;
+}
+.Signup-login a{
+    color: rgb(57, 57, 255);
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+    max-width: 100% !important;
+    max-width: 20%;
+   
+ 
+  
+}
+.log-google{
+    
+    color: black;
+    font-weight: bold;
+}
+a{
+    color: black;
+}
+.social a{
+color: rgb(109, 107, 107);
+}
+
+.Log-sign{
+     padding-left: 05px;
+}
+.register-signup{
+
+    max-width: 500px!important;
+    color: black;
+
+
+
+}
+
+.log-google{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-logo{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.register-signup a{
+
+  
+    max-width: 400px !important;
+}
+.food{
+    text-align: center;
+}
+.Google-Login{
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width:480px) {
+    
+    
+}

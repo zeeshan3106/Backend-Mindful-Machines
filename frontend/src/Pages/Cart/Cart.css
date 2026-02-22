@@ -1,0 +1,131 @@
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: -50px;
+}
+.cart-side{
+    margin-top: 20px;
+}
+.left{
+    justify-content: center;
+    margin-left: 40px;
+}
+.Cart-Pagination{
+   margin-top: 50px;
+}
+.image:hover{
+    transform: scale(1.5);
+}
+.cart-offer{
+    padding-top: 20px;
+    color: grey;
+    
+}
+.cart-side{
+    margin-top: 8px;
+    
+  
+  
+}
+.apple{
+    border-radius: 40px;
+    height: 20px;
+}
+.days{
+    color: black;
+    font-weight: bold;
+
+}
+.Title-cart{
+    margin-bottom: 20px;
+}
+.right{
+    padding: 20px
+    ;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+
+}
+.Title-cart{
+    padding: 20px;
+}
+.Subtotal{
+    margin-top: 20px;
+}
+.right-part{
+
+    
+}
+.Check-out-btn{
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+.Total-Price{
+    margin-bottom: 20px;
+}
+.Cart-Border{
+    border: 1px solid rgb(228, 223, 223);
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.right-part{
+ 
+}
+.Cart-container{
+    justify-content: center !important;
+    max-width: 100% !important;
+
+margin-left: 100px;
+    
+}
+.sec{
+    justify-content: center;
+}
+.left{
+
+}
+
+@media screen and (max-width:500px) {
+
+    .Mobile-Cart{
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: flex-start;
+    }
+    .cart-side {
+        width: 400px;
+    }
+    .Total-Responsive{
+
+        
+         width: 400px;
+    }
+    .left{
+        
+    }
+       .Cart-container {
+  justify-content: center !important;
+        align-items: flex-start !important;
+        margin-left: 0 !important;
+        flex-direction: column;
+    }
+    .sec{
+        padding: 15px !important;
+        justify-content: flex-start !important;
+    }
+    .Cart-container {
+        width: 100% !important;   /* override w-[80%] */
+        margin-left: 0 !important;
+    }
+     .left{
+        margin-left: 0 !important;
+        
+    }
+   
+    
+}
+
+

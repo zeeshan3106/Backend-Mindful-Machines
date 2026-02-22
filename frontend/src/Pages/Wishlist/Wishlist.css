@@ -1,0 +1,105 @@
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.cart-side{
+    margin-top: 20px;
+}
+.left{
+    justify-content: center;
+    margin-left: 40px;
+}
+.image:hover{
+    transform: scale(1.5);
+}
+.Items{
+    padding-left: 30px;
+    padding-top: -20px;
+    justify-content: center;
+    gap: 20px;
+    
+ 
+}
+.cart-offer{
+    padding-top: 20px;
+    color: grey;
+  
+    
+}
+.Field{
+    display: flex;
+    align-items: center;
+ 
+    width: 90%;
+    gap: 200px;
+   
+}
+.days{
+ 
+}
+.months{
+
+}
+.cart-side{
+    margin-top: 8px;
+}
+.days{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 200px;
+
+}
+.Title-cart{
+    margin-bottom: 20px;
+}
+.right{
+    padding: 20px
+    ;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+
+}
+.Title-cart{
+    padding: 20px;
+}
+.Subtotal{
+    margin-top: 20px;
+}
+.right-part{
+    left: 200px;
+}
+.Check-out-btn{
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+.Total-Price{
+    margin-bottom: 20px;
+}
+.Cart-Border{
+    border: 1px solid rgb(228, 223, 223);
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.right-part{
+ 
+}
+.Cart-container{
+    justify-content: center !important;
+    max-width: 100% !important;
+
+margin-left: 100px;
+    
+}
+.sec{
+    justify-content: center;
+}
+.left{
+
+}
+.Top{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}

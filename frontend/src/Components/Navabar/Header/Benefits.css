@@ -1,0 +1,131 @@
+.Benefits{
+
+
+    max-width: 100%;
+    background-color: white;
+    height: 300px !important;
+    margin-top: 70px;
+    padding-top: 40px;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid bla;
+
+
+
+
+}
+.beni{
+    max-width: 100% !important;
+  
+    justify-content: center;
+    align-items: center;
+   display: flex;
+   gap: 80px;
+   font-size: 14px;
+
+
+    flex-wrap: wrap;   
+  gap: 60px;  
+  padding-right: 30px;
+
+
+
+
+
+
+
+   
+   ;
+}
+
+
+.b-1 a{
+    align-items: center;
+    justify-content: center;
+
+   display: flex;
+   flex-direction: column;
+}
+
+
+.b-2 a{
+    align-items: center;
+    justify-content: center;
+ 
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+.b-3 a{
+    align-items: center;
+    justify-content: center;
+   
+   display: flex;
+   flex-direction: column;
+}
+
+
+.b-4 a{
+    align-items: center;
+    justify-content: center;
+   
+   display: flex;
+   flex-direction: column;
+}
+
+
+.b-5 a{
+    align-items: center;
+    justify-content: center;
+  
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+
+
+.top{
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    
+
+}
+.bottom{
+    color: rgb(53, 52, 52);
+    justify-content: center;
+}
+.ben-logo{
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .beni{
+        background-color: white;
+        max-width: 350px;
+    
+    }
+    .Benefits{
+       
+    }
+    .beni a{
+        font-size: 8px;
+     
+    }
+   .ben-logo{
+      font-size: 25px;
+    }
+  .top{
+        font-size: 8px;
+    }
+}

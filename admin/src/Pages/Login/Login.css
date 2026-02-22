@@ -1,0 +1,142 @@
+.Link a:hover{
+color: #1d4ed8;
+
+}
+.Login-Button{
+    border: 1px solid rgba(0,0,0,0.5);
+    color: white;
+    font-weight: 600;
+    border-radius: 100px;
+
+}
+.Google{
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.Login-Setup{
+    border-radius: 30px;
+}
+.Login-Border{
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    width: 120px;
+}
+.t2{
+    max-width: 90%;
+}
+.Gap{
+    gap: -30px;
+}
+.Forget{
+ color: #1d4ed8;
+}
+.Button-Login{
+    border-radius: 30px;
+    color: white;
+    max-width: 90%;
+   
+}
+
+
+.Google {
+  position: relative;
+  overflow: hidden;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+  background: #ffffff;
+  color: #1f1f1f;
+
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: box-shadow 150ms ease;
+}
+
+/* Overlay layer */
+.Google::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: #1a73e8;   /* Google blue */
+  opacity: 0;
+
+  transition: opacity 150ms ease;
+  pointer-events: none;
+}
+
+/* Hover */
+.Google:hover::before {
+  opacity: 0.04;
+}
+
+/* Click / Active */
+.Google:active::before {
+  opacity: 0.12;
+}
+
+/* Keyboard focus (important, most people forget this) */
+.Google:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.3);
+}
+.Login-Admin {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 30px;
+}
+
+
+@media screen and (max-width:480px), screen and (orientation: portrait) {
+
+  .Login-Mobile{
+
+    max-width: 450px;
+    max-height: 50px;
+    
+  }
+  .Login-Buttons{
+    gap: 60px;
+    font-size: 8px;
+  }
+  .Logi-Area{
+    max-width: 450px;
+     justify-content: start;
+     background-color: white;
+  }
+  .Login-Card-Area {
+    max-width: 450px;
+
+  }
+  .Login-Card-Area-text{
+    font-size: 20px;
+  }
+  .Login-main-card{
+    max-width: 450px;
+    width: 350px;
+ 
+  }
+  .Login-Area-Authentications{
+    font-size: 12px;
+  }
+
+.Logn-gap{
+  gap: 2px;
+}
+.Login-Area-Other {
+  font-size: 14px;
+  max-width: 200px;
+}
+.resposive-1{
+  gap: 20px;
+}
+  
+}

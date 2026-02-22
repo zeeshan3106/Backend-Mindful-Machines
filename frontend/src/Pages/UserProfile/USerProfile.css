@@ -1,0 +1,110 @@
+.Profile{
+   margin-left: 10px;
+   margin-top: 40px;
+}
+.Name{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.Menubar{
+    padding: 0px;
+}
+.MyaccountTabs a{
+    position:relative;
+
+
+}
+.col1{
+    margin-left: 40px;
+}
+.right-col{
+    margin-left: -80px;
+    justify-content: center;
+}
+.Name-section{
+    margin-left: 15px;
+}
+
+.Box1{
+    padding-right: 20px !important;
+}
+
+.MyaccountTabs a::before{
+    content: '';
+    width: 2px;
+    height:100%
+;
+position: absolute;
+top: 0px;
+background-color: blue;
+
+transition:all ease-in-out;
+opacity: 0;
+}
+.MyaccountTabs a:active::before{
+
+    height: 100%;
+    opacity: 1;
+    top:0px;
+}
+.MyaccountTabs a:hover::before{
+
+    height: 100%;
+    opacity: 1;
+    top:0px;
+    
+}
+.MyaccountTabs a:hover svg{
+
+    height: 100%;
+    opacity: 1;
+    top:0px;
+    color: blue;
+}
+
+.my-profile{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.btn-borer{
+
+}
+.btn-blue{
+    
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 500 !important;
+    max-width: 150px;
+  background: #007BFF !important;
+  align-items: center;
+text-align: center !important;
+}
+.btn-blue:hover{
+
+}
+.btn-lg{
+
+   
+
+}
+.btn-blue.btn-border{
+    background:none !important;
+    border: 2px solid #007BFF !important;
+    color: blue !important;
+  
+  
+}
+.btn-blue.btn-border:hover{
+    background:none;
+    ;background-color: black !important;
+    border: 1px solid black !important;
+    color: #fff !important;
+    
+
+}
+.Buttons{
+    margin-top: 20px;
+    margin-left: 8px;
+  
+}

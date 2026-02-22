@@ -1,0 +1,53 @@
+  .root {
+    --primary-color: #1E40AF; /* Blue */
+    --primary-light: #3B82F6;
+    --primary-dark: #1E3A8A;
+    --bg-light: #F3F4F6;
+    --text-dark: #111827;
+  }
+
+  body {
+  
+  }
+
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  thead {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: left;
+  }
+
+  th, td {
+    padding: 1rem 1.5rem;
+  }
+
+  tbody tr {
+    background-color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+
+  tbody tr:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+
+  td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+.Food::before{
+  background-color: red;
+  max-width: 200px;
+}

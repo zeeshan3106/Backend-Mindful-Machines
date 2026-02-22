@@ -1,0 +1,258 @@
+.left-col{
+  
+}
+.right-col{
+    width: 100% !important;
+}
+
+.container-box{
+    background-color: #f8f8f8;
+    padding-top: 5px;
+
+}
+.Company-title{
+    padding-bottom: 10px;
+  
+}
+.Dashboard{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.Dashbaord-Items{
+    padding-bottom: 20px;
+
+}
+.Dashbaord-Items:hover{
+    color: #1D4ED8;
+}
+.Concepts{
+
+    padding-bottom: 15px;
+    padding-top: -10px;
+
+}
+.point1{
+    margin-left: 130px;
+}
+.point2{
+    margin-left: 85px;
+}
+.point3{
+    margin-left: 66px;
+}
+.point4{
+    margin-left: 78px;
+}
+.point5{
+    margin-left: 93px;
+}
+.point6{
+    margin-left: 80px;
+}
+.Menu-icon:hover{color: #1D4ED8}
+.Search-icon{
+
+}
+.left-icons{
+    gap:-20px
+}
+.Cards{
+    background-color: #f8f8f8;
+}
+.total-profit{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.Card{
+    border-radius: 20px;
+}
+.increament{
+    color: rgb(55, 218, 55);
+    padding-top: 5px;
+}
+.List{
+    list-style: none;
+}
+.options{
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    border:none
+}
+.Option{
+    padding-bottom: 25px;
+}
+.basket-icon{
+    border-radius: 100px !important;
+    background-color: green;
+}
+.Dash-container{
+    border-radius: 30px;
+}
+.options1{
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    border:none
+}
+.count{
+
+}
+.total-items-dashboard{
+    margin-top: 5px !important;
+}
+
+
+
+#MainHeader .left-col {
+
+   
+
+}
+#MainHeader .right-col{
+  
+}
+
+
+
+
+
+.progress-wrapper {
+        position: relative;
+        width: 80px;
+        height: 80px;
+    }
+
+ .progress-wrapper   svg {
+        transform: rotate(-90deg);
+    }
+
+    .bg {
+        fill: none;
+        stroke: #f8f8f879;
+        stroke-width: 14;
+      
+    }
+
+    .progress {
+        fill: none;
+        stroke: #3b82f6;
+        stroke-width: 14;
+        stroke-linecap: round;
+        stroke-dasharray: 440;
+        stroke-dashoffset: 110;
+        transition: stroke-dashoffset 1s ease;
+    }
+
+  
+    .progress-wrapper {
+    transform: scale(0.5);
+}
+.percent {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;   /* you can change this safely */
+    font-weight: 600;
+    color: black;
+    line-height: 1;
+    pointer-events: none;
+}
+.percentage-circle{
+    padding-bottom: 110px;
+  
+}
+.Dashes{
+gap:-100px
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #f8f8f8;
+}
+
+
+.Products{
+    border-radius: 20px;
+}
+.Products-Labels{
+font-weight: 700;
+font-size: 20px;
+margin-left: 4px;
+margin-top: 20px;
+}
+.textbox{
+    border: 1px solid rgba(0,0,0,0.5);
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+
+}
+.textarea{
+    height: 200px;
+    text-align: start;
+   justify-items: start;
+}
+.textbox2{
+    border-radius: 0px;
+}
+.Form-Button{
+    border-radius: 30px;
+}
+.Image{
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+.Publish{
+    border-radius: 30px;
+}
+.textarea input{
+
+ 
+}
+
+
+@media screen and (max-width:500px) {
+
+    .AddProduct-Resposniveness{
+        justify-content: start;
+        margin-left: -250px;
+    }
+    .Products{
+        width: 400px;
+       
+    
+    }
+    .Upload-Resposiveness{
+        max-width: 400px;
+    }
+    .Textboxes-Responsivenesss{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+    
+    }
+    .Textboxes-Responsivenesss-Textbox{
+        width: 350px;
+    }
+    .Publish{
+         width: 400px; 
+    }
+}

@@ -1,0 +1,105 @@
+.Card{
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.card{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+.Number{
+    margin-top: 20px;
+}
+.Number1{
+    margin-top: 13px;
+}
+.order-items{
+    
+    text-align: start;
+    padding: 10px;
+}
+.Menu{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card{
+  
+}
+.Menu{
+    text-align: start;
+    justify-content: center !important;
+    align-items: center !important;
+
+
+    
+}
+.items{
+    font-size: 10px;
+}
+.order-items-list{
+   font-size: 14px;
+   color: grey;
+}
+.names{
+    align-items: start;
+    text-align: start;
+}
+
+.Items {
+    padding: 10px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+   
+    border:none;
+}
+
+.billing .right-col{
+    padding: 0px;
+    margin:0px;
+
+}
+
+
+
+.PAymentOptions{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.ABC:hover{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+.payment{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.paycards{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+
+}
+
+@media screen and (max-width:500px) {
+
+
+    .Billing-Responsiveneess {
+        flex-direction: column;
+        margin-left: -25px;
+    }
+    .Left-Responsiveness {
+     width: 400px;
+     margin-left: 0px;
+    }
+    .Right-Responsiveness{
+  width: 400px;
+    }
+}

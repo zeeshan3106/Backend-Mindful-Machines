@@ -1,0 +1,16 @@
+
+
+tr .TD{
+    font-size: 200px;
+}
+tr td {
+  border-top: 1px solid  rgba(0, 0, 0, 0.1);  
+  border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+  padding: 20px  ;
+  font:bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th{
+    padding: 20px;
+    text-align: center;
+}

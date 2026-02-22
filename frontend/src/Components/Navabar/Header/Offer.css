@@ -1,0 +1,122 @@
+
+.box .container{
+  
+    background-color: black;
+      align-items: center;
+   justify-content: center;
+   max-width: 100%;
+     
+    
+}
+.box{
+  padding-top: 100px;
+  padding-bottom: 20px;
+     display: flex;
+   align-items: center;
+   justify-content: center  ;
+   max-width: 100%;
+  
+
+   margin-top: 50px;
+   padding-bottom: 200px;
+   background-color: white;
+   max-height: 30px;
+  
+  
+   
+}
+.box .container2{
+    display: flex;
+      max-width: 100%;
+    gap: 40px;
+  
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  border: none;
+
+
+}
+.container3{
+    max-width: 100%;
+    border: 5px solid darkblue;
+    padding: 30px;
+
+    background-color: white;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center ;
+
+}
+.sec1{
+ 
+  
+  max-width: 500px !important;
+
+  font-weight: bold;
+  font-size: 25px;
+ 
+
+ display: flex;
+gap:20px;
+padding: 20px;
+
+
+   justify-content: center;
+   align-items: center;
+  
+
+  
+ 
+
+  
+}
+.gift{
+  
+    left: 50px;
+  
+    
+}
+.sec3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.box{
+  padding-bottom: 150px;
+  justify-content: center;
+}
+
+
+@media screen and (max-width:500px){
+
+  .sec1{
+    font-size: 8px;
+    gap: 5px;
+  }
+  .sec2{
+      font-size: 8px;
+  }
+  .container3{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .box{
+
+    max-width: 415px;
+  }
+  .sec3{
+     font-size: 8px;
+  }
+
+  .container3{
+    border: 2px solid darkblue;
+     padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .box .container2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    gap: 10px;
+  }
+}

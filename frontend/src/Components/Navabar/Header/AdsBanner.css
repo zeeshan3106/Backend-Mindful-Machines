@@ -1,0 +1,28 @@
+.Banner1{
+
+    color:black;
+    top:1px;
+   box-sizing: border-box;
+ 
+   padding: 60px;
+         max-height: 600px !important;
+     max-width: 500px !important;
+
+         overflow: hidden;
+}
+.swiper{
+    overflow: hidden;
+}
+.Banner1 img{
+  
+}
+
+.swiper-slide{
+    border-radius: 30px !important;
+        overflow: hidden;
+    
+}
+
+.Slide .swiper-button-prev,.swiper-button-next{
+    display: none;
+}

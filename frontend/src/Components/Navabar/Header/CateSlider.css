@@ -1,0 +1,145 @@
+
+.CateSlider .mySwiper {
+   max-width: 300%;
+   max-height: 30vh; 
+ 
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .CateSlider .mySwiper .item1:hover{
+    transform: translateY(-4px);
+  }
+  
+.CateSlider .mySwiper .item1{
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    
+    box-sizing: border-box;
+   
+    max-width: 400px;
+      justify-content: center;
+    align-items: center;
+   
+    
+}
+.CateSlider {
+    padding-top: 1%;
+   
+}
+.CateSlider .container {
+  
+    border: none;
+    background-color: transparent;
+    max-width: 90%;
+
+  
+   
+}
+
+.CateSlider .mySwiper .item2{
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    
+    box-sizing: border-box;
+    box-shadow: 0px 10px 6px (0,0,0,0.1);
+    max-width: 400px;
+      justify-content: center;
+    align-items: center;
+    
+}
+.CateSlider .mySwiper .Link{
+    color: black;
+}
+
+.swiper-button-prev,.swiper-button-next{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 100%;
+  max-width: 45px;
+  max-height: 45px;
+  box-shadow: 0px 1px 3px black,0px 1px 2px black;
+
+
+
+}
+.CateSlider .text{
+
+font-weight: bold;
+
+
+}
+
+
+
+.swiper-navigation-icon{
+  font-size: 8px !important;
+  color: black;
+  max-width: 10px;
+  max-height: 15px;
+  font-weight: bold;
+
+}
+
+.CateSlider .swiper-button-prev,.CateSlider .swiper-button-next{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 100%;
+  max-width: 45px;
+  max-height: 45px;
+  color: white;
+
+
+
+}
+
+.CateSlider .swiper-navigation-icon{
+  color: white;
+}
+.CateSlider .item1:hover   img{transform: scale(1.1);
+}
+
+
+@media screen and (max-width:500px) {
+
+  .item1{
+    font-size: 0px;
+    border-radius: 0px;
+ 
+
+
+  }
+  .font-sizes-Category{
+
+  }
+
+
+   .CateSlider .swiper-button-prev,.CateSlider .swiper-button-next{
+    display: none;
+   }
+   .CateSlider .mySwiper{
+    padding: 0px;
+   }
+   .swiper-slide{
+    background-color: white;
+   }
+  
+}

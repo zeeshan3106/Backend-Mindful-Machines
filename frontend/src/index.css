@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+font-family: Outfit;
+
+
+}
+
+
+
+
+
+
+a{
+    color: black;
+}
+
+
+
+
+.bg{
+  color: blue;  
+}
+
+.Primary-btn{
+  background-color: blue;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+
+
+.cartPanel .MuiPaper-root{
+ width: 400px !important;
+}
+.information{
+
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  align-items: start;
+  align-items: start;
+  justify-content: start;
+}
+.information a:hover{
+  color:#2563EB;
+   justify-content: start;
+   align-items: start;
+}
+
+.information a{
+  color:#2563EB;
+   justify-content: start;
+   align-items: start;
+}
+.cartItem{
+  margin-bottom: 10px;
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+
+}
+.Cart-bar-btn{
+
+  
+}
+
+
+.Cart-Bar-Button{
+  position: absolute;
+  top:20px;
+  background-color: white;
+  max-width: 900px !important;
+  max-height: 900px !important;
+}
+
+.cartItem:hover{
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+.scrol{
+
+  margin-bottom: 20px;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+
+
+
+}
+
+body{
+min-height: 100vh;
+background-color: #f8f8f8}
+a{
+
+text-decoration: none;
+color: #ffffff;
+
+}
+.app{
+    width: 95%;
+    margin: auto;
+}
+
+

@@ -1,0 +1,38 @@
+.Category{
+
+
+    display: flex;
+    align-items: center;
+}
+.font-type{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+
+
+}
+.Button-Cat{
+    margin-top: 55px;
+}
+.Apple{
+    display: flex;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .Category-R1{
+        max-width: 230px;
+   
+    }
+    .Category-R2{
+        font-size: 10px;
+    }
+    .Category-Res-Input{
+       width: 10px !important;
+    }
+
+    
+}

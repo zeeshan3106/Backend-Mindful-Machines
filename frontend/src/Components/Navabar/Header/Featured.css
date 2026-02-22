@@ -1,0 +1,33 @@
+.Featured .Pop{
+
+    gap: 340px;
+
+
+
+
+
+}
+.Pop h3{
+
+     
+}
+
+
+@media screen and (max-width:500px) {
+    
+
+  .Featured  .Pop{
+         max-height: 8px;
+             gap:0px;
+             font-size: 15px;
+             flex-direction: column;
+             padding-top: 50px;
+                 margin-left: 0px
+    }
+  .Mobie-Text-Responsive{
+    font-size: 8px;
+    display: none;
+  }
+
+    
+}

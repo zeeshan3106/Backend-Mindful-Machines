@@ -1,0 +1,482 @@
+.left-col{
+  
+}
+.right-col{
+    width: 100% !important;
+}
+
+.container-box{
+    background-color: #f8f8f8;
+    padding-top: 5px;
+
+}
+.Company-title{
+    padding-bottom: 10px;
+  
+}
+.Dashboard{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.Dashbaord-Items{
+    padding-bottom: 20px;
+
+}
+.Dashbaord-Items:hover{
+    color: #1D4ED8;
+}
+.Concepts{
+
+    padding-bottom: 15px;
+    padding-top: -10px;
+
+}
+/*
+.Productlist.right-col {
+  position: fixed;
+  top: 0;
+  left: 18%;
+  width: 60%;
+  z-index: 50;
+}
+*/
+/*
+.left-col {
+  position: fixed;
+
+}
+
+
+  */
+  
+.point1{
+    margin-left: 130px;
+}
+.point2{
+    margin-left: 85px;
+}
+.point3{
+    margin-left: 66px;
+}
+.point4{
+    margin-left: 78px;
+}
+.point5{
+    margin-left: 93px;
+}
+.point6{
+    margin-left: 80px;
+}
+.Menu-icon:hover{color: #1D4ED8;}
+.Search-icon{
+
+}
+.left-icons{
+    gap:-20px
+}
+.Cards{
+    background-color: #f8f8f8;
+}
+.total-profit{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.Card{
+    border-radius: 20px;
+}
+.increament{
+    color: rgb(55, 218, 55);
+    padding-top: 5px;
+}
+.List{
+    list-style: none;
+}
+.options{
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    border:none
+}
+.Option{
+    padding-bottom: 25px;
+}
+.basket-icon{
+    border-radius: 100px !important;
+    background-color: green;
+}
+.Dash-container{
+    border-radius: 30px;
+}
+.options1{
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    border:none
+}
+.count{
+
+}
+.total-items-dashboard{
+    margin-top: 5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.progress-wrapper {
+        position: relative;
+        width: 80px;
+        height: 80px;
+    }
+
+ .progress-wrapper   svg {
+        transform: rotate(-90deg);
+    }
+
+    .bg {
+        fill: none;
+        stroke: #f8f8f879;
+        stroke-width: 14;
+      
+    }
+
+    .progress {
+        fill: none;
+        stroke: #3b82f6;
+        stroke-width: 14;
+        stroke-linecap: round;
+        stroke-dasharray: 440;
+        stroke-dashoffset: 110;
+        transition: stroke-dashoffset 1s ease;
+    }
+
+  
+    .progress-wrapper {
+    transform: scale(0.5);
+}
+.percent {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;  
+    font-weight: 600;
+    color: black;
+    line-height: 1;
+    pointer-events: none;
+}
+.percentage-circle{
+    padding-bottom: 110px;
+  
+}
+.Productlist.Cards{
+    border-radius: 39px;
+}
+.Dashes{
+gap:-100px
+}
+.Productlist.container-box{
+   
+}
+.Search{
+    border-radius: 30px;
+
+}
+.Search:after{
+    border: 1px solid blue;
+}
+
+
+.Export:hover{
+    background-color: black;
+    color:white;
+
+}
+
+
+
+
+
+
+
+
+
+  .button-box {
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .fb-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+  }
+
+  .fb-button:hover {
+    background-color: #165ecf;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+
+  .fb-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .fb-button i {
+    margin-right: 10px;
+  }
+  .Button-Filter{
+    border-radius: 20px;
+
+  }
+.Button-Filter:hover{
+    border-color: blue;
+}
+
+
+.Search:focus{
+    border: 1px solid ;
+    border-color: blue;   
+    outline:none;     
+          
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.25);
+}
+
+th{
+    padding: 12px 16px;
+  text-align: left;
+  background: white;
+  border: 1px solid #f8f8f8;
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  box-shadow: 
+  0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  color: #1f2937;
+}
+td{
+    font-size: 15px;
+    text-align: center;
+  vertical-align: middle; 
+       
+    justify-content: center;
+    padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+tr td {
+  border-top: 1px solid  rgba(0, 0, 0, 0.1);  
+  border-bottom: 1px solid  rgba(0, 0, 0, 0.1);  ;
+}
+td svg{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+.hover:hover{
+    color: #1D4ED8;
+}
+td:last-child{
+    align-items: center;
+    padding: 20px;
+}
+ td:first-child{
+    border-left: 1px solid rgba(0,0,0,0.15);
+    padding: 2px;
+   
+}
+td:last-child{
+    border-right: 1px solid rgba(0,0,0,0.15);
+}
+tbody tr:first-child td {
+ 
+}
+th:last-child {
+  border-right: none;
+}
+.table{
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.Checkbox{
+    outline: none;
+    border: none;
+      width: 20px;
+  height: 20px;
+  accent-color: #1D4ED8;
+}
+td:first-child{
+    padding-right: 0px;
+}
+
+.food{
+    text-align: start;
+}
+td > :nth-child(2) {
+  color: blue;
+  font-weight: bold;
+  padding-right: 0px !important;
+}
+.food1{
+    padding-right: 0px !important;
+    padding-left: 10px;
+    width: 10px;
+}
+
+
+
+
+
+.accordion {
+    width: 300px !important;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.accordion input {
+    display: none;
+}
+
+.accordion label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+    transition: background 0.3s;
+}
+
+.accordion label:hover {
+    background-color: #eee;
+}
+
+.accordion .arrow {
+    transition: transform 0.3s;
+}
+
+.accordion input:checked + label .arrow {
+    transform: rotate(90deg);
+}
+.point7{
+    padding-left: 60px;
+}
+
+.accordion .content {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+.accordion input:checked ~ .content {
+    max-height: 500px; /* adjust as needed */
+    padding: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+.left-col{
+    display: none;
+}
+.TableResposiveness{
+    max-width: 425px;
+    
+}
+.Flex-Table-Resposiveness{
+    gap: 205px;
+}
+  .Table-Resposiveness{
+    padding: 2%;
+    margin-left: 5px;
+    gap:25px;
+    justify-content: flex-start;
+
+  }
+  .Table-Search-Orders{
+    gap: 10px;
+  }
+
+  
+
+    th, td{
+        padding: 6px 14px !important;
+     
+    }
+.Table-Scroll{
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+   overflow-y: scroll;
+    max-height: 700px; 
+
+}
+  
+.Table-Search{
+
+}
+
+}

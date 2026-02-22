@@ -1,0 +1,36 @@
+.Apple{
+   
+}
+.Apple1{
+
+}
+
+@media screen and (orientation: portrait)
+
+{
+    .Apple1{
+        font-size: 10px;
+    }
+
+    .Apple{
+
+        font-size: 10px;
+        color: blue;
+
+      
+    }
+   .Apple h1 {
+        font-size: 20px;   /* 4px is invisible, use at least 16px */
+        color: blue;
+        /* optional, adjust spacing */
+    }
+    .Banana{
+        font-size: 8px;
+    }
+
+
+
+}
+
+
+    

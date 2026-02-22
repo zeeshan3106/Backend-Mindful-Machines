@@ -1,0 +1,109 @@
+
+.Search {
+    display: flex;
+   
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-top: -40px;
+   border-radius: 30px ;
+  border:1px solid lightgrey;
+
+}
+
+.Box{
+
+    width: 100% !important;
+    height:40px;
+   outline: none;
+    background: none;
+    border: none;
+    font-size: 15px;
+    padding:12px 40px 12px 16px;
+    font-size: 17px ;
+    font-weight: bold;
+   
+
+}
+
+.Search:hover {
+  transition: all 0.3s ease; 
+     box-shadow: 0 3px 8px rgba(32,33,36,0.35);
+  border-color: #c6c6c6;
+   
+ 
+
+  
+}
+.Search input::placeholder{
+    color: rgb(139, 131, 131);
+}
+
+.Search .btn{
+
+    margin-top: 0px;
+   
+  
+border: 0px ;
+    padding-left: 160px;
+    margin-right: -150px;
+
+
+}
+
+.Search .btn:active {
+color: #3367d6; /* darker blue when clicked */
+}
+.btn1{border:0px;background-color: transparent;
+      margin-top: 0px;
+      margin-right: 20px;
+      font-size: 25px;
+   
+}
+.container-s{height:40px;
+
+
+}
+.Search-icon:hover{
+    color: blue;
+}
+.Search-icons{
+margin-right: 20px;
+}
+.Box{
+     width: 100% !important;
+}
+
+@media screen and (max-width:500px) {
+.Search input{
+  font-size: 12px;
+ 
+}
+.container-s{
+    max-height: 40x;
+
+    align-items: center;
+}
+.Search{
+    max-height: 40px;align-items: center;
+   gap: 0px;
+}
+
+    .Search-icon{
+        font-size: 12px;
+
+    }
+   .Search-icons {
+    right: 20px;
+
+   
+   }
+   .Box{
+       padding:12px 12px 12px 16px;
+   }
+  
+
+}
