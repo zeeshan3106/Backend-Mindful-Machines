@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.js", "use": "@vercel/node", "config": { "includeFiles": ["admin/build/**", "frontend/build/**"] } }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/index.js" },
+    { "src": "/admin/(.*)", "dest": "/admin/build/$1" },
+    { "src": "/(.*)", "dest": "/frontend/build/$1" }
+  ]
+}
