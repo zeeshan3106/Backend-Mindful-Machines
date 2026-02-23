@@ -24,7 +24,7 @@ import CategoryRouter from './Server/routes/Category.js';
 import OrderRouter from './Server/routes/Order.js';
 import DashboardRouter from './Server/routes/Dashboard.js';
 import WishRouter from './Server/routes/Wishlist.js';
-
+import serverless from 'serverless-http';
 dotenv.config()
 const app = express()
 app.use(cors())
@@ -118,9 +118,9 @@ app.use('/api/wish',WishRouter)
 
 Connencted().then(()=>{
 
-    app.listen(process.env.PORT, ()=>{
-
-        console.log("Database is live on server",process.env.PORT)
-    })
+       console.log("Database is live on server",process.env.PORT)
+ 
 
 })
+
+export const handler = serverless(app)
