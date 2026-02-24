@@ -51,7 +51,7 @@ const handleOpen = () => setOpen(true);
     <BrowserRouter>
     <Routes>
       <Route   path={'/admin'}  exact={true}  element={<Dashboard/>} />
-       <Route   path={'/dashboad'}  exact={true}  element={<Header/>} />
+       <Route   path={'/dashboard'}  exact={true}  element={<Header/>} />
     <Route path={'/List'} element={<Product/>} exact={true}/>
    
     

@@ -118,7 +118,9 @@ app.use('/api/wish',WishRouter)
 
 Connencted().then(()=>{
 
-       console.log("Database is live on server",process.env.PORT)
+       console.log("Database is live on server",process.env.PORT,"✅")
+
+     
  
 
 })
