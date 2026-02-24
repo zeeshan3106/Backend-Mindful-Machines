@@ -54,7 +54,7 @@ function MainHead() {
 
 
                       <div className=''>
-               <Link><div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]'>
+               <Link to="/Products"><div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]'>
                 
                 
                 <div><BsCartCheck /></div>
@@ -63,10 +63,10 @@ function MainHead() {
                 
                 
                 </Link> 
-               <Link>  <div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]' >
+               <Link to="/orders">  <div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]' >
                 
                 <div><BsRocketTakeoff /></div>
-               <div> Projects</div>
+               <div> Orders</div>
                 
                 
                 </div>
@@ -80,9 +80,9 @@ function MainHead() {
                     
                     </div>
                 </Link> 
-                 <Link>     <div className=' Dashbaord-Items1 flex gap-2 items-center  font-bold text-[16px] pl-5 text-[#535353]'>
+                 <Link to='/users'>     <div className=' Dashbaord-Items1 flex gap-2 items-center  font-bold text-[16px] pl-5 text-[#535353]'>
                   <div><TbBrandGoogleAnalytics /></div>
-                   <div> Analytics</div>
+                   <div> Users</div>
                     
                     
                     </div>
@@ -105,10 +105,10 @@ function MainHead() {
                 
                 
                 </Link> 
-               <Link>  <div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]' >
+               <Link to="/Feedback">  <div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]' >
                 
                 <div><AiOutlineFundProjectionScreen /></div>
-               <div>Projects</div>
+               <div>Feedbacks</div>
 
                  <div>
                <div className='point2'><FaAngleDown /></div>
@@ -119,11 +119,11 @@ function MainHead() {
                 
                 </div>
                  </Link>  
-                 <Link>   
+                 <Link to="/contact">    
                  <div className=' Dashbaord-Items flex gap-2 items-center  font-bold text-[16px] pl-5 text-[#535353]'>
                     
                     <div><BsFillPeopleFill /></div>
-                    <div>Customers</div>
+                    <div>Users Requests</div>
                      <div className='point3'><FaAngleDown /></div>
              
                     

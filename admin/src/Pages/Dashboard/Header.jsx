@@ -88,28 +88,28 @@ function Header() {
 
 
                       <div className=''>
-               <Link><div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]'>
+               <Link  to="/List"><div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]'>
                 
                 
                 <div><BsCartCheck /></div>
-               <div> Ecomerence</div>
+               <div>Ecomerence</div>
                 </div> 
                 
                 
                 </Link> 
-               <Link>  <div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]' >
+               <Link  to="/orders"> <div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]' >
                 
                 <div><BsRocketTakeoff /></div>
-               <div> Projects</div>
+               <div>Orders</div>
                 
                 
                 </div>
                  </Link>  
-                 <Link>   
+                 <Link  to='/users'>   
                  <div className=' Dashbaord-Items flex gap-2 items-center  font-bold text-[16px] pl-5 text-[#535353]'>
                     
                     <div><FaDonate /></div>
-                    <div>Marketing</div>
+                    <div> Users</div>
                     
                     
                     </div>
@@ -139,13 +139,13 @@ function Header() {
                 
                 
                 </Link> 
-               <Link>  <div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px] pl-5 text-[#535353]' >
+               <Link  to="/Feedback" >  <div className=' Dashbaord-Items flex gap-2 items-center font-bold text-[16px]  text-[#535353]' >
                 
-                <div><AiOutlineFundProjectionScreen /></div>
-               <div>Projects</div>
+                <div className='pl-4 '><AiOutlineFundProjectionScreen /></div>
+               <div>Feedbacks</div>
 
                  <div>
-               <div className='point2'><FaAngleDown /></div>
+               <div className=' pl-18 '><FaAngleDown /></div>
                </div>
                
                
@@ -153,12 +153,12 @@ function Header() {
                 
                 </div>
                  </Link>  
-                 <Link>   
+                 <Link Link to="/contact">   
                  <div className=' Dashbaord-Items flex gap-2 items-center  font-bold text-[16px] pl-5 text-[#535353]'>
                     
                     <div><BsFillPeopleFill /></div>
-                    <div>Customers</div>
-                     <div className='point3'><FaAngleDown /></div>
+                    <div>Queries</div>
+                     <div className='point3 pl-5'><FaAngleDown /></div>
              
                     
                     
@@ -227,10 +227,10 @@ function Header() {
 </div>
 <div className='flex text-[20px] gap-4 '>
 
-       <Link className='Menu-icon'><div><GrLanguage /></div></Link>
-      <Link> <div className='text-[22px] Menu-icon'><IoNotificationsOutline /></div></Link>
-      <Link> <div className='text-[22px] Menu-icon'><IoSettingsOutline /></div></Link>
-      <Link> <div className='text-[22px] Menu-icon' ><MdAccountCircle /></div></Link>
+       <Link to='/feedback' className='Menu-icon'><div><GrLanguage /></div></Link>
+      <Link to='/orders'> <div className='text-[22px] Menu-icon'><IoNotificationsOutline /></div></Link>
+      <Link to='/upload'> <div className='text-[22px] Menu-icon'><IoSettingsOutline /></div></Link>
+      <Link to='/contact'> <div className='text-[22px] Menu-icon' ><MdAccountCircle /></div></Link>
 
 </div>
   </div>  

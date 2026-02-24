@@ -9,7 +9,7 @@ import Signup from './Pages/Signup/Signup'
 import Products from './Pages/Products/Products'
 import Product from './Components/Navabar/Header/Header1'
 import Productdetail from './Pages/Products/ProductDetail/Productdetail'
-import PRoductlist from './Pages/Products/PRoductlist'
+
 import Login from './Pages/Login/Login'
 import Cart from './Pages/Cart/Cart'
 import Rating from '@mui/material/Rating';
@@ -38,7 +38,7 @@ import Feedback from './Pages/Feedback/Feedback'
 import ContactUs from './Pages/ContactUs/contact'
 import FAQ from './Pages/FAQ\'s/FAQ'
 import Cartput from './Pages/CartPut/Cartput'
-import Category from '../../admin/src/Pages/Category/Category'
+
 import ProductsSearch from './Pages/Products/ProductsSearch'
 import ProductItemSearch from './Components/Navabar/Header/ProductItemSearch'
 
@@ -73,10 +73,10 @@ const apiurl = import.meta.env.VITE_API_URL
 
 
  
- <Route path={'/Home'} exact={true} element={<Header/>}/>
+ <Route path={'/'} exact={true} element={<Header/>}/>
  <Route path={'/Product'} exact={true} element={<Products/>}/>
  <Route path={'/Detail'} exact={true} element={<Productdetail/>}/>
-  <Route path={'/List'} exact={true} element={<PRoductlist/>}/>
+ 
 
 
    <Route path={'/Login'} exact={true} element={<Login/>}/>

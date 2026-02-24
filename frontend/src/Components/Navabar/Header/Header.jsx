@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 import { BrowserRouter, Routes } from 'react-router-dom'
-import logo from './logo.PNG';
+
 import Search from './Search';
 import Slider from './Slider'
 import CateSlider from './CateSlider'
@@ -23,7 +23,7 @@ import LatestProducts from './LatestProducts';
 import AdsBanner2 from './AdsBanner2';
 import FeaturedProducts from './FeaturedProducts';
 import AdsBanner3 from './AdsBanner3';
-
+import logo from './Images/Banners/103.jpg'
 import Blog from './Blog';
 import Benefits from './Benefits';
 import Products from '../../../Pages/Products/Products';
@@ -102,12 +102,12 @@ const token = localStorage.getItem("token")
                     <div className='element-2'> 
                           <ul >
                             <li className='list'>
-                             <Link to = "help-center"  className='link'> Help Center</Link>
+                             <Link to = "/Contact"  className='link'> Help Center</Link>
                              
                             
                             <li>
 
-                            <Link to ="order-his" className='link' link >Order History</Link>
+                            <Link to ="/Feedback" className='link' link >Order History</Link>
                            
                             </li>
                             </li>
@@ -146,8 +146,8 @@ const token = localStorage.getItem("token")
 
               <div className='flex flex-col bg-blue shadow-md rounded-md Login-Badge'>
 
-               <Link to = "/login"  className='login2 text-black'>{userdata.length ? userdata[0].Name:""}</Link>
-            <Link to = "/Signup"  className='signup'>{userdata.length ? userdata[0].Email:""} </Link> 
+               <Link to = "/login"  className='login2 text-black'>{userdata.length ? userdata[0].Name:"Login"}</Link>
+            <Link to = "/Signup"  className='signup'>{userdata.length ? userdata[0].Email:"Signup"} </Link> 
 
 </div>
               
@@ -160,11 +160,11 @@ const token = localStorage.getItem("token")
 
 <ul className='carts'>
 <li className='cart'>
-   <Link to="/User" className='link1'><CgProfile /></Link>
+   <Link to="/Profile" className='link1'><CgProfile /></Link>
    
 </li>
 <li className='cart'>
-   <Link to="/Wishlist" className='link1'><FaRegHeart /></Link>
+   <Link to="/wishlist" className='link1'><FaRegHeart /></Link>
 </li>
 <li className='cart'>
    

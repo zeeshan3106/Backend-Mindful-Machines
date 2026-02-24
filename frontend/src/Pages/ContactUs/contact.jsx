@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Contact.css'
+import './contact.css'
 
 import Product from '../../Components/Navabar/Header/Header1'
 import Benefits from '../../Components/Navabar/Header/Benefits'

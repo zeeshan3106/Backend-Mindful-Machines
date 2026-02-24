@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 import { BrowserRouter, Routes } from 'react-router-dom'
-import logo from './logo.PNG';
+
 import Search from './Search';
 import Slider from './Slider'
 import CateSlider from './CateSlider'

@@ -4,7 +4,7 @@ import Dashboard from './Pages/Dashboard/Dashboard'
 import Header from './Pages/Dashboard/Header'
 
 import Product from './Pages/Product/Product'
-import AddProduct from './Pages/Product/addProduct'
+
 import Dialog from '@mui/material/Dialog';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
@@ -14,7 +14,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import CloseIcon from '@mui/icons-material/Close';
+
 import Slide from '@mui/material/Slide';
 import Button from '@mui/material/Button';
 import MainHead from './Pages/Header/Header'
@@ -25,6 +25,7 @@ import Contact from './Pages/ContactUS/Contact'
 import Category from './Pages/Category/Category'
 import Orders from './Pages/Orders/Orders'
 import Resposiveness from './Pages/Category/Resposiveness'
+import AddProduct from './Pages/Product/AddProduct'
 
 
  export const MyContext = createContext();
@@ -50,13 +51,13 @@ const handleOpen = () => setOpen(true);
     <BrowserRouter>
     <Routes>
       <Route   path={'/admin'}  exact={true}  element={<Dashboard/>} />
-       <Route   path={'/dashboard'}  exact={true}  element={<Header/>} />
+       <Route   path={'/dashboad'}  exact={true}  element={<Header/>} />
     <Route path={'/List'} element={<Product/>} exact={true}/>
    
     
         <Route path={'/Main'} element={<MainHead/>} exact={true}/>
            <Route path={'/Upload'} element={<AddProduct/>} exact={true}/>
-            <Route path={'/Login'} element={<Login/>} exact={true}/>
+            <Route path={'/'} element={<Login/>} exact={true}/>
              <Route path={'/Users'} element={<Users/>} exact={true}/>
               <Route path={'/Feedback'} element={<Feedback/>} exact={true}/>
               <Route path={'/Contact'} element={<Contact/>} exact={true}/>
@@ -103,7 +104,7 @@ const handleOpen = () => setOpen(true);
               onClick={handleClose}
               aria-label="close"
             >
-              <CloseIcon />
+            
             </IconButton>
             <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
               Sound
