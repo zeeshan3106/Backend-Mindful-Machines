@@ -90,7 +90,7 @@ console.log("sortingId:", `"${sortingId}"`);
 console.log("Does it match Name A to Z?", sortingId === "Name A to Z");
 
 
-         const limitid = 4
+         const limitid = 20
          const page = 1
 
          const skip=(page-1)*limitid

@@ -9,7 +9,7 @@ console.log('Product route file loaded');
 
 
 
-ContactRouter.get('/getcontacts',verifyuser,ContactGet)
+ContactRouter.get('/getcontacts',ContactGet)
 console.log('Product route file loaded');
 
 export default ContactRouter

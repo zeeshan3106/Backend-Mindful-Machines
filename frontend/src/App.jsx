@@ -41,6 +41,7 @@ import Cartput from './Pages/CartPut/Cartput'
 
 import ProductsSearch from './Pages/Products/ProductsSearch'
 import ProductItemSearch from './Components/Navabar/Header/ProductItemSearch'
+import ProductItem from './Components/Navabar/Header/ProductItem'
 
 
 
@@ -84,6 +85,7 @@ const apiurl = import.meta.env.VITE_API_URL
 
     <Route path={'/Billing'} exact={true} element={<Billing/>}/>
 
+    <Route path={'/item'} exact={true} element={<ProductItem/>}/>
     <Route path={'/Profile'} exact={true} element={<USerProfile/>}/>
   <Route path={'/Wishlist'} exact={true} element={<Wishlist/>}/>
   <Route path={'/History'} exact={true} element={<Orderhis/>}/>

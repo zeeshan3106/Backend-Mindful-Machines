@@ -79,8 +79,7 @@ export async function GetUsers(req , res ){
         
 
 
-        skip
-
+     
 
         const Allusers = await signupmodel.find()
          const   Usercounts= await signupmodel.countDocuments();

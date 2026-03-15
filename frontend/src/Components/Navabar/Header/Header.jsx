@@ -23,7 +23,7 @@ import LatestProducts from './LatestProducts';
 import AdsBanner2 from './AdsBanner2';
 import FeaturedProducts from './FeaturedProducts';
 import AdsBanner3 from './AdsBanner3';
-import logo from './Images/Banners/103.jpg'
+import logo from './Images/Banners/logo.jpg'
 import Blog from './Blog';
 import Benefits from './Benefits';
 import Products from '../../../Pages/Products/Products';
@@ -101,7 +101,7 @@ const token = localStorage.getItem("token")
                    </div>
                     <div className='element-2'> 
                           <ul >
-                            <li className='list'>
+                            <li className='list pb-4'>
                              <Link to = "/Contact"  className='link'> Help Center</Link>
                              
                             
@@ -128,68 +128,52 @@ const token = localStorage.getItem("token")
 
        </div>
 
-    <div className='header'>
+    <div className='header w-full'>
        <div className='container-head'>
       
-        <div className='col1' >
+        <div className='w-[20%] col1' >
               <Link to = {"/Home"} >  <img src= {logo}/></Link>
 
         </div>
-         <div className='col2'>
+         <div className='w-[60%] Col-2'>
          <Search/>
          
          </div>
-          <div className='col3'>
+          <div className=' w-[20%] col3 gap-20 items-center '>
           <ul className='Options'>
    
-            <li className='login'>
+            <li className='login '>
 
-              <div className='flex flex-col bg-blue shadow-md rounded-md Login-Badge'>
+              <div className='pl-10 flex bg-blue gap-3 items-center justify-center cart '>
 
-               <Link to = "/login"  className='login2 text-black'>{userdata.length ? userdata[0].Name:"Login"}</Link>
-            <Link to = "/Signup"  className='signup'>{userdata.length ? userdata[0].Email:"Signup"} </Link> 
+              
+<div className=' cart-theme'>
+                  <Link to="/Profile" className='link1 '><CgProfile /></Link>
+</div>
+              <li className='cart cart-theme'>
+   <Link to="/wishlist" className='link1'><FaRegHeart /></Link>
+   
+   
+   
+</li>
+
+ <div className=' cart-theme'>
+   
+   <button className='link1'   
+   onClick={()=>context.setOpenDrawer(true)}  
+
+
+   
+   ><FaCartArrowDown /></button>
+
+             </div>
 
 </div>
               
             
             </li>
             </ul>
-             </div>
-  <div> 
-
-
-<ul className='carts'>
-<li className='cart'>
-   <Link to="/Profile" className='link1'><CgProfile /></Link>
-   
-</li>
-<li className='cart'>
-   <Link to="/wishlist" className='link1'><FaRegHeart /></Link>
-</li>
-<li className='cart'>
-   
-   <button className='link1'   
-   onClick={()=>context.setOpenDrawer(true)}  
-   
-   ><FaCartArrowDown /></button>
-</li>
-
-
-<li className='cart'>
-   
-   <button className='link1'   
-  
-   
-   >
-    
-   <Link to="/History" className='link1'><FaHistory /></Link>
-   </button>
-</li>
-
-</ul>
-
-
-
+        
 
          
             </div>  

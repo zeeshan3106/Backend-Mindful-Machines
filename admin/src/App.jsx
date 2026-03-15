@@ -26,6 +26,7 @@ import Category from './Pages/Category/Category'
 import Orders from './Pages/Orders/Orders'
 import Resposiveness from './Pages/Category/Resposiveness'
 import AddProduct from './Pages/Product/AddProduct'
+import FeedbackDSA from './Feedbacks/Feedback'
 
 
  export const MyContext = createContext();
@@ -61,7 +62,7 @@ const handleOpen = () => setOpen(true);
              <Route path={'/Users'} element={<Users/>} exact={true}/>
               <Route path={'/Feedback'} element={<Feedback/>} exact={true}/>
               <Route path={'/Contact'} element={<Contact/>} exact={true}/>
- 
+       <Route path={'/DSA'} element={<FeedbackDSA/>} exact={true}/>
 <Route path={'/Category'} exact={true} element={<Category/>}/>
 
 <Route path={'/Orders'} exact={true} element={<Orders/>}/>

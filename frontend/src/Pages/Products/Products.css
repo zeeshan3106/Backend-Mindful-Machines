@@ -31,7 +31,8 @@
 
     
        
-          margin-left: 1px;margin-right: 10px;
+          margin-left: 1px;
+          margin-right: 10px;
           gap: 8px;
           background-color: #f8f8f8;
 }
@@ -41,7 +42,7 @@
 }
 .right-bar .Pitem{
     max-width: 300px;
-    max-height: 350px;
+   
     padding: 20px;
   
 }
@@ -265,6 +266,7 @@
   
 }
 
+  
 
 @media screen and (max-width:500px) {
 
@@ -310,5 +312,23 @@ width: 200px;
     padding: 5px;
     max-width: 410px;
 }
+
+.rightway{
+  width: 100%;
+}
+.right-bar{
+margin-left: 1px;
+        
+        gap: 20px;
+          background-color:black}
+
+          .right-bar .Pitem {
+    max-width: 1200px;
+  
+    display: flex;
+ 
+
+}
+
     
 }

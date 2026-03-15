@@ -21,15 +21,20 @@
     padding-bottom: 20px;
      margin-top: 03px;
 }
+.Wishlist-Button-Product{
+    max-width: 400px;
+}
 
 
-.Pitem {
-  flex: 1 1 23%;       
+ .ProductItem .Pitem {
+  
+    
+    flex: 1 1 23%;
  
   
   background-color: white;
   border-radius: 0.375rem;
-  padding: 12px;
+
   box-shadow: 0 12px 28px rgba(0,0,0,0.18), 0 6px 12px rgba(0,0,0,0.1);
   transition: transform 0.2s;
 }
@@ -182,6 +187,18 @@ right: 10px;
 
 
 }
+.Addtobtns{
+    border-radius: 30px;
+}
+.AddToCartbtn{
+
+    background-color: blue;
+
+}
+
+
+
+
 .heart a{
     color:white;
     
@@ -193,7 +210,7 @@ transform: scale(1.2);
 @media screen and (max-width:500px) {
 
     .Pitem{
-      width: 20px;
+      
         font-size: 12px;
         
     }
@@ -203,6 +220,12 @@ transform: scale(1.2);
   
    
     
+}
+
+
+.Mobile-btn-product{
+    font-size: 10px;
+
 }
     .Rating-Responsivesness{
         max-width: 10px;
@@ -214,5 +237,15 @@ transform: scale(1.2);
     .discount{
         max-width: 200px;
     }
+
     
+  
 }
+.ADDCARTMOBILE {
+    font-size: 10px;
+}
+   
+
+
+
+

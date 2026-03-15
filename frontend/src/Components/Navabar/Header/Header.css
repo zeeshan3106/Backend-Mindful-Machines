@@ -96,6 +96,9 @@ header .strip{
   width: 30%;
 
 }
+.Col-2{
+  padding-right: 60px;
+}
 
 .col2 {
   width: 50%;
@@ -115,7 +118,16 @@ header .strip{
 .col3 {
 display: flex;
 align-items: center;
+justify-content: start;
 
+}
+.cart-theme{
+  background-color: #f8f8f8;
+  padding:15px;
+  border-radius: 30px;
+}
+.PAdding{
+  padding-right: 40px;
 }
 .col3 .Options{
   list-style: none;

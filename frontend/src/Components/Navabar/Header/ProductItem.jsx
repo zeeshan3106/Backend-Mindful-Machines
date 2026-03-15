@@ -151,7 +151,7 @@ const token = localStorage.getItem("token")
 
 
     
-<div className='w-[] Product-Apple'>
+<div className='w-[] Product-Apple ProductItem '>
 
     {pro.map((product) => (
 
@@ -159,7 +159,7 @@ const token = localStorage.getItem("token")
 
 
 
-    <div className='Pitem flex'>
+    <div className='Pitem'>
 
 
  
@@ -173,41 +173,135 @@ const token = localStorage.getItem("token")
             <span className='zoom'><Link><MdOutlineZoomInMap /></Link></span>
             <span className='heart'><Link onClick={()=>AddtoWishlist(product._id)}> 
             <FaRegHeart /> 
-            
-            
-            </Link></span>
+      </Link></span>
+</div>
 
 
-              <h6 className='info1'>{product.company}</h6>
+              <div className='text-[12px]'>      <h6 className='info1 '>{product.company}</h6>
             
-              
-                 <Link to= "/Detail"> <h7 className='info'>{product.title} </h7></Link>
-                 <div className='Rating-Responsivesness'>
+              </div> 
+
+               <div className='text-[15px]'> 
+                 <Link to= "/Detail"> 
+                 
+                 
+              <h7 className='info'>{product.title} </h7></Link> </div>
+
+
+
+                 <div className='Rating-Responsivesness '>
+
+                  <div>
                   <Stack spacing={1} className=''>
       
       <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly />
 
     </Stack>
+     </div>
     </div>
+
+
+
+ 
        <div className='price items-center'>
       <span className='old'>${product.oldPrice}</span>
        
        <span className='new'>${product.price}</span>
-      <span>{product.productStock}available</span>
+      <span>Available ({product.productStock})</span>
       </div>
-      <div className='flex items-center pb-4 mb-10 ButtonCard'>
+
+
+      <div className='items-center pb-0 mb-0 w-[full] '>
       <div className='w-[100%]'>{product.category}</div>
           <div className='w-[100%]  flex justify-end'>
-            <div className=''>
-              <Link to="">
+          
+ </div>
+
+            
+  </div>
+
+
+    <div className='flex justify-center bg-blue-800 text-white Addtobtns ADDCARTMOBILE  '>
+              <Link to="" className=' text-white ADDCARTMOBILE' >
+
+            
             <Button 
+
+            sx={{
+              color:'white',
+
+
+                width: {
+    xs: "100%",   // mobile
+    sm: "50%",    // small screens
+    md: "200px"   // desktop
+  }
+            }}
+
+
+
+
+
 
             onClick={()=>onClick(product._id)}
 
             
             
             
-            className='btn-blue Button-REsposiveness '>
+            className='AddToCartbtn  text-white ADDCARTMOBILE '>
+
+               <Toaster
+                      toastOptions={{
+                  
+                        style:{
+                          background:"white",
+                          color:"black",
+                          borderRadius:"20px",
+                          fontSize:"14px",
+                          fontFamily:"Roboto",
+                          
+                  
+                        }
+                  
+                  
+                      }}
+                      
+                      
+                      
+                      />
+
+
+
+
+
+
+
+             <div className="Mobile-btn-product">Add To Cart</div> </Button>
+              
+              
+              
+              
+              
+              </Link>
+            </div>
+
+            
+      
+
+       <div className='flex justify-center bg-red-600 text-white Addtobtns'>
+              <Link to="" className=' text-white'>
+            <Button 
+
+            onClick={()=>onClick(product._id)}
+
+            sx={{
+              color:'white'
+            }}
+
+            
+            
+            
+            className=' text-white '>
 
                <Toaster
                       toastOptions={{
@@ -234,21 +328,18 @@ const token = localStorage.getItem("token")
 
 
 
-              Add To Cart</Button></Link>
+             
+
+              <div className=" Mobile-btn-product"> Add To WishList</div>
+              
+              
+              
+              </Button></Link>
             </div>
-
-
-            
-            
-            </div>
-
-            
-  </div>
-      
 
 
               
-     </div>
+
       
 
 
@@ -256,6 +347,17 @@ const token = localStorage.getItem("token")
     </div>
 
  ))}
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>

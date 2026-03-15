@@ -114,11 +114,11 @@ console.log('Page numberrrrrrrrrrrrrrrrs',pagenumbers)
     <section>
        <div><Product/></div>
 
-        <div className='container-side'>
+        <div className='container-side Product'>
 
              <div className='wellness'>Wellness Devices
             </div>
-            <div className='ProductPage '>
+            <div className='ProductPage  '>
 
 
 
@@ -128,7 +128,7 @@ console.log('Page numberrrrrrrrrrrrrrrrs',pagenumbers)
 
             
 
-<div className='w-full'>
+<div className='w-full ' >
 
   <div className='filter-bar cursor-pointer Products-Counts'>
     
@@ -167,29 +167,12 @@ console.log('Page numberrrrrrrrrrrrrrrrs',pagenumbers)
 
   </div>
  
-  
-
-
-              <div className="right-bar bg-black">
+ 
+              <div className="right-bar bg-black rightway ">
                
            
             <ProductItem/>
             
-            
-         
-              
-
-
-
-
-
-
-
-
-        
-
-
-
 
             </div>
 
@@ -210,6 +193,9 @@ console.log('Page numberrrrrrrrrrrrrrrrs',pagenumbers)
 
 
 </div>
+          
+          
+          
             </div>
 
             

@@ -25,7 +25,7 @@ export async function OrderController(req,res){
         const totalOrders = await OrderModel.countDocuments();
 
 
- totalpages = Math.ceil(totalOrders/limit)
+ const totalpages = Math.ceil(totalOrders/limit)
 
 
 

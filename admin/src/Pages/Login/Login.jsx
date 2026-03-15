@@ -43,6 +43,8 @@ function Login() {
             localStorage.setItem('token',res.data.token)
             console.log(login,res.data.token)
 
+            toast.success("Login Successfully...")
+
         }
           
 
@@ -188,6 +190,8 @@ sx={{
 }}>
 
      <Link to='/dashboard'> SIGN IN</Link>
+
+     <Toaster/>
     
     
     
